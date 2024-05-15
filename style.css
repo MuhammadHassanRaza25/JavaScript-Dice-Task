@@ -32,3 +32,52 @@ button:hover{
     border: 2px solid ghostwhite;
     transition: all 0.4s;
 }
+@media(max-width:1024px) {
+    .imgContainer{
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 75%;
+    }
+    button{
+        margin-bottom: 5%;
+    }
+}
+@media(max-width:870px) {
+    .imgContainer{
+        margin: 0 auto;
+        margin-top: 1%;
+        width: 50%;
+    }
+}
+@media(max-width:700px) {
+    .imgContainer{
+        margin: 0 auto;
+        margin-top: 1%;
+        width: 70%;
+    }
+}
+@media(max-width:500px) {
+    .imgContainer{
+        margin: 0 auto;
+        margin-top: 1%;
+        width: 100%;
+    }
+    h1{
+        font-size:30px;
+    }
+}
+@media(max-width:430px) {
+    .imgContainer{
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 100%;
+    }
+    .imgContainer img{
+        width: 100%;
+        height: 53vh;
+    }
+    button{
+        margin-top: 12%;
+        margin-bottom: 15%;
+    }
+}
